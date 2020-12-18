@@ -1,0 +1,71 @@
+
+    <!--Card-->
+    <div class="card card-cascade wider" >
+
+        <!--Card image-->
+        <div class="view overlay hm-white-slight waves-light" mdbRippleRadius>
+
+            <img src="{{project.ImageUrl}}" class="img-fluid" alt="Card image cap"  >
+
+            <a>
+                <div class="mask"></div>
+            </a>
+
+        </div>
+
+        <!--/Card image-->
+
+        <!--Card content-->
+        <div class="card-body text-center">
+
+
+
+
+            <!--Title-->
+            <h4 class="card-title"><strong> {{project.Title}}</strong></h4>
+            <h5 class="indigo-text"><strong>{{project.Catagory}}</strong></h5>
+
+            <p class="card-text">{{project.ShortDescription}}</p>
+<mdb-progressbar value="{{percentage}}" min="0" max="100" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></mdb-progressbar>
+<div class="container">
+  <div class="row justify-content-end">
+    <div class="col-4">
+      {{project.TotalFuneded}} Eth
+    </div>
+    <div class="col-4">
+      {{project.ToalVoteCount}}
+    </div>
+    <div class="col-4">
+      {{project.FundingGoal}} Eth
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <div class="col-4 card-text">
+      Raised
+    </div>
+    <div class="col-4 card-text">
+      Votes
+    </div>
+    <div class="col-4 card-text">
+      Goal
+    </div>
+  </div>
+</div>
+
+            <!--Linkedin-->
+            <a class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a>
+            <!--Twitter-->
+            <a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>
+            <!--Dribbble-->
+            <a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>
+
+             <a  class="indigo-text mt-1 d-flex flex-row-reverse">
+
+                <h5 (click)="showDetials()" class="waves-effect p-2" mdbRippleRadius>Read more <i class="fa fa-chevron-right"></i></h5>
+            </a>
+
+        </div>
+        <!--/.Card content-->
+
+    </div>
+    <!--/.Card-->

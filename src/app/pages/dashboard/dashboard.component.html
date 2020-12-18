@@ -1,0 +1,199 @@
+
+<div class="view intro" style="background-image: none; z-index: 0; min-height: 700px;">
+    <div class="full-bg-img">
+        <div class="container flex-center">
+            <div class="row mt-5 py-5">
+                <div class="col-md-12 wow fadeIn mb-3" style="animation-name: none; visibility: visible;">
+                    <div class="text-center">
+                        <h1 class="display-2 mb-2 wow white-text fadeInDown" data-wow-delay="0.3s">IdeaHub <a class="white-text font-bold">BlockChain</a></h1>
+                        <h5 class="font-up mb-3 mt-1 white-text font-bold wow fadeInDown" data-wow-delay="0.4s">A DISTRIBUTED PLATFORM WHICH ALLOW CROWDFUNDING IN ETHEREUM CRYTOCURRENCY</h5>
+                        <a class="btn btn-blue btn-lg wow fadeInDown waves-effect waves-light" mdbRippleRadius data-wow-delay="0.4s">portfolio</a>
+                        <a class="btn btn-blue btn-lg wow fadeInDown waves-effect waves-light" mdbRippleRadius data-wow-delay="0.4s">About</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-parallax"><video src="/assets/images/wbwcv.MP4" frameborder="0" autoplay="" loop=""></video>
+    </div>
+</div>
+
+<div class="container">
+
+  <!--Grid row-->
+  <div class="row" >
+    <!--Grid column-->
+    <div class="col-md-12 text-center mb-5">
+      <h1 class="font-bold light-blue-text my-5">Top Rated Projects.</h1>
+
+    </div>
+
+    <!--Grid column-->
+  </div>
+  <!--Grid row-->
+
+  <div class="container-fluid" *ngIf="!showdetailproject">
+    <div class="row justify-content-center" >
+      <div class="col-lg-4 col-md-12 mb-r wow fadeIn" data-wow-delay="0.2s" *ngFor="let pro of projectslist | searchfilter: 'Title' : serarchProjectText">
+         <single-Project [project]= pro (click)="showdetailProjectActivator(pro)" (VoteThisProject)="VoteProject($event)" ></single-Project>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="view intro blue-slight" style="background-image: url(/assets/images/Ethereum10.jpg); background-attachment: fixed; background-size: cover; min-height: 700px">
+    <div class="full-bg-img">
+    </div>
+</div>
+
+<div class="view intro hm-purple-slight" style="background-image: url(/assets/images/background1.jpg); background-attachment: fixed; min-height: 700px">
+    <div class="full-bg-img">
+        <div class="container">
+            <div class="d-flex align-items-center d-flex justify-content-center" style="height: 750px">
+                <div class="row mt-5">
+                    <div class="col-md-12 wow fadeIn mb-3">
+                        <div class="intro-info-content text-end">
+                            <community-remarks></community-remarks>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="view intro blue-slight" style="background-image: url(/assets/images/Ethereum18.jpg); background-attachment: fixed; background-size: cover; min-height: 700px">
+    <div class="full-bg-img">
+    </div>
+</div>
+
+<div class="view intro hm-purple-slight" style="background-image: url(/assets/images/background4.jpg); background-attachment: fixed; min-height: 700px">
+    <div class="full-bg-img">
+        <div class="container">
+            <div class="d-flex align-items-center d-flex justify-content-center" style="height: 700px">
+                <div class="row mt-5">
+                    <div class="col-md-12 wow fadeIn mb-3">
+                        <div class="intro-info-content text-center">
+                            <h1 class="display-1 white-text mb-2 wow fadeInDown" data-wow-delay="0.3s">In Touch With Future</h1>
+                            <h4 class="mb-3 mt-1 white-text font-bold wow fadeIn" data-wow-delay="0.4s">Ethereum BlockChain</h4>
+                            <a class="btn btn-pink wow fadeIn waves-light" mdbRippleRadius data-wow-delay="0.4s">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="view intro blue-slight" style="background-image: url(/assets/images/Ethereum14.jpg); background-attachment: fixed; background-size: cover; min-height: 700px">
+    <div class="full-bg-img">
+    </div>
+</div>
+    <!-- /.Main -->
+
+<!--Main Navigation-->
+
+<!--Main Layout-->
+
+
+
+
+
+<!--Main Layout-->
+
+<!--Footer-->
+<footer class="page-footer center-on-small-only stylish-color-dark">
+
+    <!--Footer Links-->
+    <div class="container">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-4">
+                <h5 class="title mb-4 mt-3 font-bold">STAY CONNECTED</h5>
+                <p>Join Idea Hub to get conneted with fucture and Ethereum world</p>
+            </div>
+            <!--/.First column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Second column-->
+            <div class="col-md-2 mx-auto">
+                <h5 class="title mb-4 mt-3 font-bold">NAVIGATE</h5>
+                <ul>
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">AboutUs</a></li>
+                    <li><a href="#!">Help</a></li>
+                    <li><a href="#!">Our Team</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Third column-->
+            <div class="col-md-2 mx-auto">
+                <h5 class="title mb-4 mt-3 font-bold">USEFUL LINKS</h5>
+                <ul>
+                    <li><a href="#!">Events</a></li>
+                    <li><a href="#!">Support</a></li>
+                    <li><a href="#!">Contact Us</a></li>
+                    <li><a href="#!">Blog</a></li>
+                </ul>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+
+            <!--/.Fourth column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <hr>
+
+    <!--Call to action-->
+    <div class="call-to-action">
+        <ul>
+            <li>
+                <h5 class="mb-1">Register for free</h5>
+            </li>
+            <li><a href="" class="btn btn-danger btn-rounded">Sign up!</a></li>
+        </ul>
+    </div>
+    <!--/.Call to action-->
+
+    <hr>
+
+    <!--Social buttons-->
+    <div class="social-section text-center">
+        <ul>
+
+            <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+
+        </ul>
+    </div>
+    <!--/.Social buttons-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid">
+            © 2017 Copyright: <a href="https://www.MDBootstrap.com"> FastNu.edu.pk </a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->

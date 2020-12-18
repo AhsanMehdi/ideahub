@@ -1,0 +1,528 @@
+{
+  "contractName": "Voting",
+  "abi": [],
+  "bytecode": "0x6060604052600a6000806101000a81548160ff021916908360ff1602179055503415602957600080fd5b60358060366000396000f3006060604052600080fd00a165627a7a723058200e56c236f10a379c2f60eaf5499b669217e0a82c0da0e9ca05b3e900beb5d5370029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a723058200e56c236f10a379c2f60eaf5499b669217e0a82c0da0e9ca05b3e900beb5d5370029",
+  "sourceMap": "27:44:6:-;;;60:2;50:12;;;;;;;;;;;;;;;;;;;;27:44;;;;;;;;;;;;;;",
+  "deployedSourceMap": "27:44:6:-;;;;;",
+  "source": "pragma solidity ^0.4.2;\r\n\r\ncontract Voting {\r\n    uint8 a = 10;\r\n   \r\n}",
+  "sourcePath": "C:\\Users\\Faisal Naveed\\Desktop\\FYP\\openhouse\\contracts\\Voting.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Faisal Naveed/Desktop/FYP/openhouse/contracts/Voting.sol",
+    "exportedSymbols": {
+      "Voting": [
+        714
+      ]
+    },
+    "id": 715,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 710,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 714,
+        "linearizedBaseContracts": [
+          714
+        ],
+        "name": "Voting",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 713,
+            "name": "a",
+            "nodeType": "VariableDeclaration",
+            "scope": 714,
+            "src": "50:12:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 711,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "50:5:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "3130",
+              "id": 712,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "60:2:6",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_10_by_1",
+                "typeString": "int_const 10"
+              },
+              "value": "10"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 715,
+        "src": "27:44:6"
+      }
+    ],
+    "src": "0:71:6"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Faisal Naveed/Desktop/FYP/openhouse/contracts/Voting.sol",
+    "exportedSymbols": {
+      "Voting": [
+        714
+      ]
+    },
+    "id": 715,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 710,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 714,
+        "linearizedBaseContracts": [
+          714
+        ],
+        "name": "Voting",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 713,
+            "name": "a",
+            "nodeType": "VariableDeclaration",
+            "scope": 714,
+            "src": "50:12:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 711,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "50:5:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "3130",
+              "id": 712,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "60:2:6",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_10_by_1",
+                "typeString": "int_const 10"
+              },
+              "value": "10"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 715,
+        "src": "27:44:6"
+      }
+    ],
+    "src": "0:71:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {
+    "1514272178528": {
+      "events": {},
+      "links": {},
+      "address": "0x7f5b7a9b95c120518ef12a5e250d428e216c2896",
+      "updated_at": 1514273116855
+    },
+    "1514388193140": {
+      "events": {},
+      "links": {},
+      "address": "0xaca712e293a448886e36a57874ccec4461097002",
+      "updated_at": 1514388294863
+    },
+    "1515468554373": {
+      "events": {},
+      "links": {},
+      "address": "0x94f67850f6257887ab531e48f3ec851f79daa730",
+      "updated_at": 1515468658770
+    },
+    "1515640492813": {
+      "events": {},
+      "links": {},
+      "address": "0xfe65b48927c96b4ad6a57f46656e9275b123f656",
+      "updated_at": 1515688983199
+    },
+    "1515779608092": {
+      "events": {},
+      "links": {},
+      "address": "0x601a710eea1ee112d5269caacb2ec8c9bff10e99",
+      "updated_at": 1515813706198
+    },
+    "1515817920278": {
+      "events": {},
+      "links": {},
+      "address": "0x13cc569520e111c57029b0b3aad9e0278aae8ced",
+      "updated_at": 1515847163862
+    },
+    "1516000878281": {
+      "events": {},
+      "links": {},
+      "address": "0xeb2c83c0c35dbb93680624480b1f78c2f36ea8af",
+      "updated_at": 1516001107357
+    },
+    "1516093502595": {
+      "events": {},
+      "links": {},
+      "address": "0x1e113a9ff638c70b12bafa3b1c187938ba17e5f3",
+      "updated_at": 1516093561963
+    },
+    "1516103046082": {
+      "events": {},
+      "links": {},
+      "address": "0x63caf8be31954d8df038869fb4c6f3d8131f27ba",
+      "updated_at": 1516103177128
+    },
+    "1516108083151": {
+      "events": {},
+      "links": {},
+      "address": "0x68e377bef31bc63cc50480c2ed0bd55006a13614",
+      "updated_at": 1516108380833
+    },
+    "1516161622488": {
+      "events": {},
+      "links": {},
+      "address": "0xe2e6ee915a0183225dbfbabfa418644502acbd3a",
+      "updated_at": 1516161659187
+    },
+    "1516255903013": {
+      "events": {},
+      "links": {},
+      "address": "0x6424e7128e221b328277d85ce55e80789b9369f1",
+      "updated_at": 1516255935640
+    },
+    "1516283279838": {
+      "events": {},
+      "links": {},
+      "address": "0x8750c16d305687f2061f5729870b2db9ea841ca0",
+      "updated_at": 1516283595052
+    },
+    "1516637406492": {
+      "events": {},
+      "links": {},
+      "address": "0xa07166ec465fdd4e51713c3fec1145c9475318c2",
+      "updated_at": 1516714464834
+    },
+    "1516714606789": {
+      "events": {},
+      "links": {},
+      "address": "0xfe459f95b34b76f963857da62fa668591e260683",
+      "updated_at": 1516715795805
+    },
+    "1516720923046": {
+      "events": {},
+      "links": {},
+      "address": "0x4d61c39c28a5a5f8ba579cfff5f428fc43cb8707",
+      "updated_at": 1516723706997
+    },
+    "1516794642175": {
+      "events": {},
+      "links": {},
+      "address": "0x4756684f32b9b8e7884bcabe2f255f67f4b86bd5",
+      "updated_at": 1516798651869
+    },
+    "1516806168182": {
+      "events": {},
+      "links": {},
+      "address": "0x45373f5358f9b9d0dc6ec032320fa22c77c4c6ad",
+      "updated_at": 1516807081404
+    },
+    "1516894338581": {
+      "events": {},
+      "links": {},
+      "address": "0xd5f413b6952966f1d44ab2e2b94b39cad707fffc",
+      "updated_at": 1516902144063
+    },
+    "1516951058121": {
+      "events": {},
+      "links": {},
+      "address": "0xbdc07e4de74ac05c12dd63c9871133699552c16f",
+      "updated_at": 1516951196484
+    },
+    "1516974338945": {
+      "events": {},
+      "links": {},
+      "address": "0x4429fb21dbd9886c00fb9e8b8a2ba7860671eb07",
+      "updated_at": 1516974801209
+    },
+    "1517059256654": {
+      "events": {},
+      "links": {},
+      "address": "0x00fd65e089a095bb70b740c269f1c4f74ba9f7bb",
+      "updated_at": 1517059490389
+    },
+    "1517113703965": {
+      "events": {},
+      "links": {},
+      "address": "0x538c7cdb1675570b0df8e7563b1f219264657665",
+      "updated_at": 1517113934799
+    },
+    "1517211730946": {
+      "events": {},
+      "links": {},
+      "address": "0x14afa10386159ae1e59aa2c0898d95c0223f7470",
+      "updated_at": 1517241618994
+    },
+    "1517314988775": {
+      "events": {},
+      "links": {},
+      "address": "0x4de23f1cb2fa2fde97f103ac21c077730bb6ee2e",
+      "updated_at": 1517315091580
+    },
+    "1517325618693": {
+      "events": {},
+      "links": {},
+      "address": "0x70cb1cb01af107b3be3418486fb846097671cf10",
+      "updated_at": 1517331746598
+    },
+    "1517392866958": {
+      "events": {},
+      "links": {},
+      "address": "0x185434676583f3364e363f2164633a275e004bc0",
+      "updated_at": 1517392974764
+    },
+    "1517404746105": {
+      "events": {},
+      "links": {},
+      "address": "0x58e93964d2ce7e78d8e7adb1f34e1925079b597e",
+      "updated_at": 1517404884306
+    },
+    "1517407852838": {
+      "events": {},
+      "links": {},
+      "address": "0xf87ec78079ae04890aa0196de529fbb482efb5d6",
+      "updated_at": 1517407982970
+    },
+    "1517487565790": {
+      "events": {},
+      "links": {},
+      "address": "0xce5b0e652a297b63e8484aa4f788b81a85f12d99",
+      "updated_at": 1517487689690
+    },
+    "1517493092957": {
+      "events": {},
+      "links": {},
+      "address": "0x2a8b16251b0477f9f6a831e449cbd9a70ded895f",
+      "updated_at": 1517493282200
+    },
+    "1517541125807": {
+      "events": {},
+      "links": {},
+      "address": "0xb858096f610ff6f6840b9577cf9ebdce6f63d829",
+      "updated_at": 1517542193254
+    },
+    "1517810524793": {
+      "events": {},
+      "links": {},
+      "address": "0x8de2d028b2e4c17be903215e7bea8a9c4129eb54",
+      "updated_at": 1517811949982
+    },
+    "1519141264394": {
+      "events": {},
+      "links": {},
+      "address": "0xfbe239cc0a9adeaae5834b2bd342b3a64cef6ec4",
+      "updated_at": 1519141354387
+    },
+    "1519150854776": {
+      "events": {},
+      "links": {},
+      "address": "0xe8a18cbb769de74d4f0a55b832a17796d186c8d5",
+      "updated_at": 1519150957068
+    },
+    "1519183177298": {
+      "events": {},
+      "links": {},
+      "address": "0x7d6a23ddcc06cdd7f2138056b6a50426987a5ef0",
+      "updated_at": 1519188884041
+    },
+    "1519206547692": {
+      "events": {},
+      "links": {},
+      "address": "0xe1b0957dd0fbb37010a31fcc73153bf95e905e95",
+      "updated_at": 1519206710936
+    },
+    "1519217565585": {
+      "events": {},
+      "links": {},
+      "address": "0xe0cd641e37b216ea4d7b46207f7e4a59954b2f35",
+      "updated_at": 1519217653416
+    },
+    "1519220191124": {
+      "events": {},
+      "links": {},
+      "address": "0x16a799a233904ba907c08c1cf130e57845a31988",
+      "updated_at": 1519220254228
+    },
+    "1519278786068": {
+      "events": {},
+      "links": {},
+      "address": "0x7dc6e94d86a0d6692364c04d3b26878960eeb907",
+      "updated_at": 1519278846154
+    },
+    "1519307348127": {
+      "events": {},
+      "links": {},
+      "address": "0xe18ad9d2777ecb95f64c7ec524eaf576e7b0a20f",
+      "updated_at": 1519307473982
+    },
+    "1520010133090": {
+      "events": {},
+      "links": {},
+      "address": "0xf84b265e0d39c77fbd59844878ab84011b6de8dc",
+      "updated_at": 1520010175785
+    },
+    "1520274734304": {
+      "events": {},
+      "links": {},
+      "address": "0x7ea6f7d6ef6b64e4b3abe5d064c4b0303af81a7f",
+      "updated_at": 1520277762158
+    },
+    "1520278178362": {
+      "events": {},
+      "links": {},
+      "address": "0xe0bdae094fdadc3eba48daf8acf62be38380ff88",
+      "updated_at": 1520278241426
+    },
+    "1520348033796": {
+      "events": {},
+      "links": {},
+      "address": "0xefd5672e3bfa4d5994d2086e5de59a9c77f6fa12",
+      "updated_at": 1520348115284
+    },
+    "1520394795796": {
+      "events": {},
+      "links": {},
+      "address": "0x0a788dea0683bff58c9a900fa195e59eb1f07aa9",
+      "updated_at": 1520415382182
+    },
+    "1520415501439": {
+      "events": {},
+      "links": {},
+      "address": "0x0613b485719847162b9ba722f3d6b4cbd6f9e659",
+      "updated_at": 1520417035806
+    },
+    "1520420114170": {
+      "events": {},
+      "links": {},
+      "address": "0xd549a3109e350893a59ee727531262eae3612c1a",
+      "updated_at": 1520420706099
+    },
+    "1520442668242": {
+      "events": {},
+      "links": {},
+      "address": "0x5b03f752d71f24124c1fcf051fe93906527c51a5",
+      "updated_at": 1520442689256
+    },
+    "1520505774893": {
+      "events": {},
+      "links": {},
+      "address": "0xf5c56bb6c27ed82d06dd786cca143468d3cc7fa7",
+      "updated_at": 1520505793686
+    },
+    "1520577273157": {
+      "events": {},
+      "links": {},
+      "address": "0x1c9f073c0546a790d1cedf36f276da845593fb32",
+      "updated_at": 1520577448814
+    },
+    "1520582212782": {
+      "events": {},
+      "links": {},
+      "address": "0x4a82794cdc7a7e755f4003dfedef4786379ca10b",
+      "updated_at": 1520582290399
+    },
+    "1520592685212": {
+      "events": {},
+      "links": {},
+      "address": "0xeb1c9a9408287ef77ee2f70510ca761a80a7057a",
+      "updated_at": 1520592724266
+    },
+    "1520593747440": {
+      "events": {},
+      "links": {},
+      "address": "0x3fec5f5dc6161e76edbc62396d8b6b06c62a4cd7",
+      "updated_at": 1520593779084
+    },
+    "1524638106518": {
+      "events": {},
+      "links": {},
+      "address": "0x8170fac4ebbfe0b85b36e00539b0eee3c6e9d483",
+      "transactionHash": "0x56785b007e4ce6f3b87c7272dff98343b4858e7ae03986d61d90b9c1e450dbc3"
+    },
+    "1526659645914": {
+      "events": {},
+      "links": {},
+      "address": "0xa6590cc0c55a4817bd02d983f759f9456839a242",
+      "transactionHash": "0xa457f8de75f5800fb77f75c95bde857d3d8d01a02ef862763811c2c48b2831a5"
+    },
+    "1529641314974": {
+      "events": {},
+      "links": {},
+      "address": "0x626244c4ba583b5ce3811cbbc83b11f4b415d390",
+      "transactionHash": "0xa457f8de75f5800fb77f75c95bde857d3d8d01a02ef862763811c2c48b2831a5"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-22T04:22:00.671Z"
+}
